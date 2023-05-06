@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.*;
 
-public class MaxAndMin2DArray {
+public class TwoDFindMaxAndMin {
 
     public static boolean findKey(int arr[][], int key, int n, int m) {
         for (int i = 0; i < n; i++) {
@@ -60,5 +60,6 @@ public class MaxAndMin2DArray {
             default:
                 System.out.println("Choise allowed are 1 and 2.");
         }
+        sc.close();
     }
 }
