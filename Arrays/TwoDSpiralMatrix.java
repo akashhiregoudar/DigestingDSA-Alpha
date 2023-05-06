@@ -49,5 +49,6 @@ public class TwoDSpiralMatrix {
             }
         }
         printSpiralMatrix(arr);
+        sc.close();
     }
 }
